@@ -1,0 +1,9 @@
+{
+  "trailingSlash": false,
+  "rewrites": [
+    {"source": "/admin/", "destination": "https://fonz-store.vercel.app/"},
+    {"source": "/admin/:match*", "destination": "https://fonz-store.vercel.app/:match*"},
+    {"source": "/", "destination": "https://inkmonkey-git-addfonz-team-flap.vercel.app/"},
+    {"source": "/:match*", "destination": "https://inkmonkey-git-addfonz-team-flap.vercel.app/:match*"}
+  ]
+}
