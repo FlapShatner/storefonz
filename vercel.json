@@ -2,8 +2,8 @@
   "trailingSlash": false,
   "rewrites": [
     {"source": "/fonz/", "destination": "https://fonz-store.vercel.app"},
-    {"source": "/fonz/:match*", "destination": "https://fonz-store.vercel.app/:match*"},
+    {"source": "/fonz/:path*", "destination": "https://fonz-store.vercel.app/:path*"},
     {"source": "/", "destination": "https://inkmonkey-git-addfonz-team-flap.vercel.app"},
-    {"source": "/:path*", "destination": "https://inkmonkey-git-addfonz-team-flap.vercel.app/:path*"}
+    {"source": "/:match*", "destination": "https://inkmonkey-git-addfonz-team-flap.vercel.app/:match*"}
   ]
 }
